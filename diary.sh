@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# parameters
+entries_dir="$HOME/Dropbox/diary_entries"
+
+# make entries directory and cd to it
+mkdir -p ${entries_dir}
+cd ${entries_dir}
+
 # create date and title
 date=`date`
 title=`date "+%y-%m-%d"`
